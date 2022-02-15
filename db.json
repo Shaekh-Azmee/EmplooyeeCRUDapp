@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Azmee",
+      "gender": "Male",
+      "dateofbirth": "1998-12-07",
+      "occupation": "Junior Software Developer",
+      "bloodgroup": "B+",
+      "salary": null,
+      "phone": 1772073531,
+      "address": "Dhaka"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
