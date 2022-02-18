@@ -39,16 +39,17 @@ export class EmployeeDashboardComponent implements OnInit {
     this.showUpdate=false;
   }
   postEmployeeDetails(){
-    this.employeeModelObj.name= this.formValue.value.name;
-    this.employeeModelObj.gender=this.formValue.value.gender;
-    this.employeeModelObj.dateofbirth=this.formValue.value.dateofbirth;
-    this.employeeModelObj.bloodgroup=this.formValue.value.bloodgroup;
-    this.employeeModelObj.occupation=this.formValue.value.occupation;
-    this.employeeModelObj.salary=this.formValue.value.salary;
-    this.employeeModelObj.phone=this.formValue.value.phone;
-    this.employeeModelObj.address=this.formValue.value.address;
+    var model = this.formValue.value;
+    // this.employeeModelObj.name= this.formValue.value.name;
+    // this.employeeModelObj.gender=this.formValue.value.gender;
+    // this.employeeModelObj.dateofbirth=this.formValue.value.dateofbirth;
+    // this.employeeModelObj.bloodgroup=this.formValue.value.bloodgroup;
+    // this.employeeModelObj.occupation=this.formValue.value.occupation;
+    // this.employeeModelObj.salary=this.formValue.value.salary;
+    // this.employeeModelObj.phone=this.formValue.value.phone;
+    // this.employeeModelObj.address=this.formValue.value.address;
 
-    this.api.postEmployee(this.employeeModelObj)
+    this.api.postEmployee(model)
     .subscribe({next: (res)=>{
       console.log(res)
     },
