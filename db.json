@@ -1,24 +1,29 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "Azmee",
-      "gender": "Male",
-      "dateofbirth": "1998-12-07",
-      "occupation": "Junior Software Developer",
+      "name": "Rosy",
+      "gender": "Female",
+      "dateofbirth": "2022-03-07",
       "bloodgroup": "B+",
+      "occupation": "Dancer",
       "salary": null,
       "phone": 1772073531,
-      "address": "Dhaka"
-    }
-  ],
-  "comments": [
+      "address": "Dhaka Bangladesh",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Mashrif",
+      "gender": "Male",
+      "dateofbirth": "1998-07-11",
+      "bloodgroup": "O+",
+      "occupation": "Pagol",
+      "salary": null,
+      "phone": 1521309996,
+      "address": "Chortha",
+      "id": 3
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
